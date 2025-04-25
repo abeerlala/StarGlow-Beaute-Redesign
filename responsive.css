@@ -1,0 +1,261 @@
+:root {
+    --0: #000000;
+    --1: #cba034;
+    --2: #ffffff;
+    --3: #f0f0f0;
+}
+
+@media (max-width: 1400px) {
+    .main-about {
+        flex-direction: column;
+        gap: 10px;
+        margin: 80px;
+    }
+}
+
+@media (max-width: 1221px) {
+    .logo {
+        width: 250px;
+    }
+
+    .navPara {
+        width: 72%;
+    }
+
+    .innerClipPath {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mainInner {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .mainInner2 h1 {
+        margin-bottom: 20px;
+    }
+
+    .aboutUsP1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 995px) {
+    .navPara {
+        width: 90%;
+        font-size: .9rem;
+    }
+
+    .innerClipPath {
+        width: 50%;
+    }
+}
+
+@media (max-width: 855px) {
+    .navPara {
+        width: 90%;
+        font-size: .8rem;
+    }
+
+    .innerClipPath {
+        width: 60%;
+        height: 55px;
+    }
+
+    .clipPathHead {
+        font-size: 1.5rem;
+    }
+
+    .aboutUsH1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutUsH2,
+    .aboutUsH3 {
+        font-size: 1.3rem;
+    }
+
+    .aboutUsP1,
+    .aboutUsP2 {
+        font-size: .9rem;
+    }
+
+    .aboutUsList {
+        font-size: .75rem;
+    }
+}
+
+@media (max-width: 785px) {
+    .navPara {
+        width: 90%;
+        font-size: .7rem;
+        position: relative;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .innerClipPath {
+        width: 65%;
+    }
+
+    .mainH1 {
+        font-size: 1.7rem;
+    }
+
+    .main-about img {
+        height: 290px;
+    }
+
+    .contact-form-container {
+        width: 290px;
+    }
+
+    .form-group .name {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        height: 70px;
+    }
+
+    .navPara {
+        display: none;
+    }
+
+    .navInner {
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .navLink {
+        margin-left: 5px;
+        font-size: .9rem;
+    }
+
+    .navLink a {
+        padding: 0 3px 19px 3px;
+    }
+
+    .carousel {
+        margin-top: -40px;
+    }
+
+    .innerClipPath {
+        height: 45px;
+        width: 60%;
+    }
+
+    .clipPathHead {
+        font-size: 1.2rem;
+    }
+
+    .swiper-container .swiper-button-next,
+    .swiper-container .swiper-button-prev {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .swiper-container .swiper-button-next::after,
+    .swiper-container .swiper-button-prev::after {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 527px) {
+    .menuIcon {
+        right: 20px;
+        top: 20px;
+        display: block;
+        position: absolute;
+    }
+
+    .navList {
+        z-index: 1000;
+        width: 96.2%;
+        background-color: #cba03445;
+        backdrop-filter: blur(15px);
+        border: none;
+        border-radius: 3px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        gap: 15px;
+        padding: 25px 0;
+    }
+
+    .activeNav {
+        display: flex;
+    }
+
+    .navLink {
+        font-size: 1.2rem;
+    }
+
+    .activeLink a {
+        border-bottom: none;
+    }
+
+    .navLink a:hover {
+        border-bottom: none;
+        color: var(--1);
+    }
+
+    .innerClipPath {
+        width: 58%;
+        height: 25px;
+    }
+
+    .clipPathHead {
+        font-size: .65rem;
+    }
+    
+    .mainH1 {
+        font-size: 1.3rem;
+    }
+
+    .mainInner img {
+        height: 290px;
+    }
+
+    .mainInner2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainP {
+        width: 290px;
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: 80px;
+        font-size: .8rem;
+    }
+
+    .upperH1 {
+        font-size: 2rem;
+    }
+}
