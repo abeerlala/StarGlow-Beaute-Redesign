@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
         autoplay: {
-            delay: 10000,
+            delay: 4000,
             disableOnInteraction: false,
         },
         speed: 1500
